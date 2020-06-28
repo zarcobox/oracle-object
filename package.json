@@ -1,0 +1,37 @@
+{
+  "name": "@zarcobox/package",
+  "version": "0.0.1",
+  "description": "Package description.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "<package>"
+  ],
+  "author": "Luiz Felipe Zarco <felipezarco@hotmail.com> (https://github.com/felipezarco)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zarcobox/<package>.git"
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.2",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "coveralls": "^3.1.0",
+    "@types/express": "^4.17.6",
+    "@types/jest": "^26.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/zarcobox/<package>/issues"
+  },
+  "homepage": "https://github.com/zarcobox/<package>#readme"
+}
