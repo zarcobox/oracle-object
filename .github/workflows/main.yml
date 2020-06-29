@@ -8,17 +8,18 @@ jobs:
     - run: npm install
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
-    - uses: phips28/gh-action-bump-version@master
       with:
         node-version: '10.x'  
-        registry-url: 'https://registry.npmjs.org'
+        registry-url: 'https://registry.npmjs.org/'
         scope: '@zarcobox'
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - uses: actions/setup-node@v1
       with:
-        registry-url: 'https://npm.pkg.github.com'
+        node-version: '10.x'  
+        registry-url: 'https://npm.pkg.github.com/'
+        scope: '@zarcobox'
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

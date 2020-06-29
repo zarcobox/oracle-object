@@ -1,7 +1,7 @@
 {
-  "name": "@zarcobox/package",
+  "name": "@zarcobox/oracle-object",
   "version": "0.0.1",
-  "description": "Package description.",
+  "description": "Turns oracledb execute result into javascript objects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,7 +10,15 @@
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "keywords": [
-    "<package>"
+    "oracle",
+    "object",
+    "response",
+    "result",
+    "execute",
+    "json",
+    "javascript",
+    "objects",
+    "format"
   ],
   "author": "Luiz Felipe Zarco <felipezarco@hotmail.com> (https://github.com/felipezarco)",
   "license": "MIT",
@@ -19,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/zarcobox/<package>.git"
+    "url": "git://github.com/zarcobox/oracle-object.git"
   },
   "devDependencies": {
     "tsc": "^1.20150623.0",
@@ -27,11 +35,10 @@
     "jest": "^26.0.1",
     "ts-jest": "^26.1.0",
     "coveralls": "^3.1.0",
-    "@types/express": "^4.17.6",
     "@types/jest": "^26.0.0"
   },
   "bugs": {
-    "url": "https://github.com/zarcobox/<package>/issues"
+    "url": "https://github.com/zarcobox/oracle-object/issues"
   },
-  "homepage": "https://github.com/zarcobox/<package>#readme"
+  "homepage": "https://github.com/zarcobox/oracle-object#readme"
 }
