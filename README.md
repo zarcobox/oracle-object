@@ -4,7 +4,7 @@
 
 Oracle's npm module `oracledb` returns an atypical response in which columns are displayed as a meta-data object separate from the rows. This module helps programmers by turning those into more natural key-valued javascript objects.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/%40zarcobox%2Foracle-object</package>.svg)](https://badge.fury.io/js/%40zarcobox%2Foracle-object) [![Build Status](https://travis-ci.org/zarcobox/oracle-object.svg?branch=master)](https://travis-ci.org/zarcobox/oracle-object) [![Coverage Status](https://coveralls.io/repos/github/zarcobox/oracle-object/badge.svg?branch=master)](https://coveralls.io/github/zarcobox/oracle-object?branch=master) ![Downloads](https://img.shields.io/npm/dw/@zarcobox/oracle-object)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/%40zarcobox%2Foracle-object.svg)](https://badge.fury.io/js/%40zarcobox%2Foracle-object) [![Build Status](https://travis-ci.org/zarcobox/oracle-object.svg?branch=master)](https://travis-ci.org/zarcobox/oracle-object) [![Coverage Status](https://coveralls.io/repos/github/zarcobox/oracle-object/badge.svg?branch=master)](https://coveralls.io/github/zarcobox/oracle-object?branch=master) ![Downloads](https://img.shields.io/npm/dw/@zarcobox/oracle-object)
 
 [![npm](https://nodei.co/npm/@zarcobox/oracle-object.png)](https://www.npmjs.com/package/@zarcobox/oracle-object)
 

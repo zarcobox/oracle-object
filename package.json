@@ -1,6 +1,6 @@
 {
   "name": "@zarcobox/oracle-object",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Turns oracledb execute result into javascript objects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
